@@ -1,0 +1,21 @@
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path "ba.jpg"  %>')">
+  <div class="banner-content">
+    <h1>Mister Cocktail</h1></div>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="thing">
+            <% @cocktails.each do |cocktail| %>
+            <div class="card">
+              <h2><%= link_to cocktail.name, cocktail %></h2>
+              <h3><%= link_to "destroy", cocktail_path(cocktail), method: :delete  %></h3>
+            </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <h3><%= link_to "new", new_cocktail_path %></h3>
+    </div>
+
+

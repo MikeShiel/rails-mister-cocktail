@@ -1,0 +1,64 @@
+.form-group {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.body{
+  font-size: 16px;
+}
+
+.wrapper{
+ background: #edf0f2;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+a{
+	text-decoration: none;
+
+	&:visited{
+		text-decoration: none;
+	}
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+}
+
+.card {
+  display: block;
+  margin:20px;
+  width: 300px;
+  background: white;
+  padding: 20px;
+  font-weight: 300;
+  box-shadow: 2px 2px 2px rgba(1,1,1,0.5);
+  height: 425px;
+
+  &:hover {
+    box-shadow: 2px 2px 2px rgba(169, 146, 103, 0.5);
+    .card-body,
+    .card-footer {
+      color: gold;
+
+    }
+  }
+}
+
+.card-show {
+	display: block;
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  font-weight: 300;
+}

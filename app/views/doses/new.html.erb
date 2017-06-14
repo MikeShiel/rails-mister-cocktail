@@ -1,9 +1,0 @@
-<div class="container">
-<h1>Add New Dose</h1>
-  <%=simple_form_for [@cocktail, @dose] do |f| %>
-  <%= f.error_notification %>
-  <%= f.input :description %>
-  <%= f.association :ingredient %>
-  <%= f.button :submit %>
-<% end %>
-</div>

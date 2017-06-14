@@ -24,6 +24,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'figaro'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'carrierwave', '~> 0.11.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -39,7 +40,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'cloudinary'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
